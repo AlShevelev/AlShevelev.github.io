@@ -67,7 +67,7 @@
       },
       "layoutKey": "automobileProductCard"
     },  
-	{
+    {
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
@@ -78,7 +78,7 @@
       },
       "layoutKey": "recommendations.automobileRecommendations"
     },
-	{
+    {
       "title": "Каско",
       "description": "Расчет за 1 минуту",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
@@ -89,7 +89,7 @@
       },
       "layoutKey": "recommendations.automobileRecommendations"
     },
-	{
+    {
       "title": "Получи скидку 5% на заправку",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
@@ -99,7 +99,7 @@
       },
       "layoutKey": "offers.automobileOffers"		
     },
-	{
+    {
       "title": "Поменяйте колеса со скидкой",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
@@ -109,7 +109,7 @@
       },
       "layoutKey": "offers.automobileOffers"
     },
-	{
+    {
       "title": "Статьи про ОСАГО",
       "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
@@ -121,7 +121,7 @@
       },
       "layoutKey": "usefulTopics.automobileTopics"
     },
-	{
+    {
       "title": "Статьи про Каско",
       "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
