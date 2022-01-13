@@ -32,14 +32,14 @@
             "context": "automobileOffers",
             "title": "Предложения",
             "displayType": "specialOffer",
-            "displayCount": 2,
+            "displayCount": 2
            },        
         "prefetched": true
        },
-      {        
+      {
         "component": "usefulTopics",
         "key": "usefulTopics.automobileTopics",
-        "props:" {
+        "props": {
             "context": "automobileTopics",
             "title": "Полезное",
             "description": "Полезный контент от экспертов рынка",
