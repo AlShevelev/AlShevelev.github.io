@@ -58,7 +58,9 @@
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
       "deepLink": "bind-osago",
       "actionText": "Добавить",
-      "state": "no-auto",
+      "custom": {          
+        "state": "no-auto"
+      },
         "analytics": {
             "eventCategory": "automobile_mob",
             "eventAction": "banner_click",
