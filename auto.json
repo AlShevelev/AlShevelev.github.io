@@ -50,9 +50,8 @@
        }
     ]
   },
-  "data": {
-    "automobileProductCard": [
-      {
+  "data": [
+    {
       "title": "Расчехли свой автомобиль!",
       "decription": "Ваш полис ОСАГО всегда под рукой",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
@@ -61,68 +60,68 @@
       "custom": {          
         "state": "no-auto"
       },
-        "analytics": {
+      "analytics": {
             "eventCategory": "automobile_mob",
             "eventAction": "banner_click",
             "eventLabel": "uncover" 
-        }
-      }
-    ],
-    "recommendations.automobileRecommendations": [
-      {
+      },
+	  "layoutKey": "automobileProductCard"
+	},  
+	{
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
-        "analytics": {
-            "eventCategory": "automobile_mob",
-            "eventAction": "osago_recommendation_click"
-        } 
+      "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "osago_recommendation_click"
       },
-      {
+	  "layoutKey": "recommendations.automobileRecommendations"
+	},
+	{
       "title": "Каско",
       "description": "Расчет за 1 минуту",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
-        "analytics": {
-            "eventCategory": "automobile_mob",
-            "eventAction": "kasko_recommendation_click"
-        }
-      }
-    ],
-    "offers.automobileOffers": [
-      {
+      "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "kasko_recommendation_click"
+      },
+	  "layoutKey": "recommendations.automobileRecommendations"
+	},
+	{
       "title": "Получи скидку 5% на заправку",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
-        "analytics": {
+      "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "gas_station_sale_offer_click"
-            }
       },
-      {
+	  "layoutKey": "offers.automobileOffers"		
+	},
+	{
       "title": "Поменяйте колеса со скидкой",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
-          "analytics": {     
-            "eventCategory": "automobile_mob",
-            "eventAction": "tires_change_offer_click"
-        }
-      }
-    ],
-    "usefulTopics.automobileTopics": [
-      {
+      "analytics": {     
+         "eventCategory": "automobile_mob",
+         "eventAction": "tires_change_offer_click"
+      },
+	  "layoutKey": "offers.automobileOffers"
+	},
+	{
       "title": "Статьи про ОСАГО",
       "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
-      "eventCategory": "automobile_mob",
       "analytics": {
+        "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
         "eventLabel": "osago_usefuls"
-        }
       },
-      {
+	  "layoutKey": "usefulTopics.automobileTopics"
+	},
+	{
       "title": "Статьи про Каско",
       "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
@@ -131,8 +130,8 @@
         "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
         "eventLabel": "kasko_usefuls"
-        }
-      }
-    ]
-  }
+      },
+	  "layoutKey": "usefulTopics.automobileTopics"
+	}
+  ]
 }
