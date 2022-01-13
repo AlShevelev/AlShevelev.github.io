@@ -55,11 +55,11 @@
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
       "custom": {          
         "state": "default",
-		"vehicleBrand": "SEAT",
-		"vehicleModel": "Tolledo",
-		"vehicleLicensePlate": "У 417 KC 163",
-		"policyType": "OSAGO",
-		"policyEndDate": "2022-12-31"
+        "vehicleBrand": "SEAT",
+        "vehicleModel": "Tolledo",
+        "vehicleLicensePlate": "У 417 KC 163",
+        "policyType": "OSAGO",
+        "policyEndDate": "2022-12-31"
       },
       "analytics": {
             "eventCategory": "automobile_mob",
