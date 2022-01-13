@@ -53,7 +53,7 @@
   "data": [
     {
       "title": "Расчехли свой автомобиль!",
-      "decription": "Ваш полис ОСАГО всегда под рукой",
+      "description": "Ваш полис ОСАГО всегда под рукой",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/banners/uncover.png",
       "deepLink": "bind-osago",
       "actionText": "Добавить",
