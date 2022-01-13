@@ -111,7 +111,6 @@
     },
     {
       "title": "Статьи про ОСАГО",
-      "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
@@ -123,7 +122,6 @@
     },
     {
       "title": "Статьи про Каско",
-      "description": null,
       "background": "https://finusluge.ru/image/url/examle.png",
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
