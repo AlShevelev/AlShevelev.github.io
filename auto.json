@@ -95,7 +95,8 @@
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
-        "eventAction": "gas_station_sale_offer_click"
+        "eventAction": "gas_station_sale_offer_click",
+        "eventLabel": "some_label"
       },
       "layoutKey": "offers.automobileOffers"		
     },
@@ -105,7 +106,8 @@
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {     
          "eventCategory": "automobile_mob",
-         "eventAction": "tires_change_offer_click"
+         "eventAction": "tires_change_offer_click",
+         "eventLabel": "some_label"
       },
       "layoutKey": "offers.automobileOffers"
     },
