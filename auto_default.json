@@ -72,7 +72,7 @@
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
-      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
           "eventAction": "osago_recommendation_click"
@@ -83,7 +83,7 @@
       "title": "Каско",
       "description": "Расчет за 1 минуту",
       "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
-      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
           "eventAction": "kasko_recommendation_click"
