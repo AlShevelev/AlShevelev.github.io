@@ -12,6 +12,9 @@
       {        
         "component": "automobileProductCard",
         "key": "automobileProductCard",
+        "props": {
+            "displayType": "cardSingle"
+        },        
         "prefetched": true
       },
       {        
@@ -70,7 +73,7 @@
     {
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
-      "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/osago.png",
+      "background": "#FF0508",
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
@@ -81,7 +84,7 @@
     {
       "title": "Каско",
       "description": "Расчет за 1 минуту",
-      "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/recommendations/kasko.png",
+      "background": "#FF0508",
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
