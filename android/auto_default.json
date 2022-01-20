@@ -2,8 +2,8 @@
   "page": {
     "key": "automobile",
     "title": "Автомобиль",
-    "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile.png",
-    "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
+    "iconUrl": "https://alshevelev.github.io/android/ic_auto_tab_unselected.webp",
+    "activeIconUrl": "https://alshevelev.github.io/android/ic_auto_tab_selected.webp",
     "analytics": {
           "eventCategory": "automobile_mob",
           "eventAction": "automobile_mob"
