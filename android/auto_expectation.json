@@ -55,7 +55,9 @@
   },
   "data": [
     {
-      "background": "https://alshevelev.github.io/android/img_car_banner.webp",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_car_banner.webp" 
+      },
       "custom": {          
         "state": "expectation",
         "vehicleBrand": "SEAT",
@@ -73,7 +75,11 @@
     {
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
-      "background": "#FF0508",
+      "background": { 
+          "colors": [
+              "#FF0508"
+          ]
+      },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
@@ -84,7 +90,11 @@
     {
       "title": "Каско",
       "description": "Расчет за 1 минуту",
-      "background": "#FF0508",
+      "background": { 
+          "colors": [
+              "#FF0508"
+          ]
+      },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
@@ -94,7 +104,9 @@
     },
     {
       "title": "Получи скидку 5% на заправку",
-      "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+      "background": { 
+          "url": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+      },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
@@ -105,7 +117,9 @@
     },
     {
       "title": "Поменяйте колеса со скидкой",
-      "background": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png",
+      "background": { 
+          "url": "https://assets.finuslugi.ru/mp-assets/images/mapp/offers/gas-station-sale.png"
+      },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {     
          "eventCategory": "automobile_mob",
@@ -116,7 +130,9 @@
     },
     {
       "title": "Статьи про ОСАГО",
-      "background": "https://finusluge.ru/image/url/examle.png",
+      "background": { 
+          "url": "https://finusluge.ru/image/url/examle.png"
+      },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
@@ -127,7 +143,9 @@
     },
     {
       "title": "Статьи про Каско",
-      "background": "https://finusluge.ru/image/url/examle.png",
+      "background": { 
+          "url": "https://finusluge.ru/image/url/examle.png"
+      },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
