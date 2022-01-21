@@ -148,19 +148,6 @@
         "eventLabel": "osago_usefuls"
       },
       "layoutKey": "usefulTopics.automobileTopics"
-    },
-    {
-      "title": "Статьи про Каско",
-      "background": { 
-          "url": "https://finusluge.ru/image/url/examle.png"
-      },
-      "actionUrl": "https://finusluge.ru/action/url/examle",
-      "analytics": {
-        "eventCategory": "automobile_mob",
-        "eventAction": "topic_click",
-        "eventLabel": "kasko_usefuls"
-      },
-      "layoutKey": "usefulTopics.automobileTopics"
     }
   ]
 }

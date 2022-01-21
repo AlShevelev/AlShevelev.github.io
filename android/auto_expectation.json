@@ -138,8 +138,9 @@
     },
     {
       "title": "Статьи про ОСАГО",
+      "description": "Прочитаете статью как не прогадать при покупке ОСАГО",	  
       "background": { 
-          "url": "https://finusluge.ru/image/url/examle.png"
+          "url": "https://alshevelev.github.io/android/img_car.webp"
       },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
@@ -152,7 +153,35 @@
     {
       "title": "Статьи про Каско",
       "background": { 
-          "url": "https://finusluge.ru/image/url/examle.png"
+          "url": "https://alshevelev.github.io/android/img_car.webp"
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+        "eventCategory": "automobile_mob",
+        "eventAction": "topic_click",
+        "eventLabel": "kasko_usefuls"
+      },
+      "layoutKey": "usefulTopics.automobileTopics"
+    },
+    {
+      "title": "Деньги делают деньги",
+      "description": "Слушайте подкаст от Московской биржи",	  
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_briefcase.webp"
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+        "eventCategory": "automobile_mob",
+        "eventAction": "topic_click",
+        "eventLabel": "kasko_usefuls"
+      },
+      "layoutKey": "usefulTopics.automobileTopics"
+    },
+    {
+      "title": "Деньги делают деньги 2",
+      "description": "Слушайте подкаст от Московской биржи",	  
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_briefcase.webp"
       },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
