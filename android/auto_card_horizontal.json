@@ -1,0 +1,203 @@
+{
+  "page": {
+    "key": "automobile",
+    "title": "Автомобиль",
+    "iconUrl": "https://alshevelev.github.io/android/ic_auto_tab_unselected.webp",
+    "activeIconUrl": "https://alshevelev.github.io/android/ic_auto_tab_selected.webp",
+    "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "automobile_mob"
+    },
+    "layout": [
+      {        
+        "component": "automobileProductCard",
+        "key": "automobileProductCard",
+        "props": {
+            "displayType": "cardSingle"
+        },        
+        "prefetched": true
+      },
+      {        
+        "component": "recommendations",
+        "key": "recommendations.savings",
+        "props": {
+            "context": "savingsRecommendations",
+            "displayType": "cardHorizontal",
+            "displayCount": 2
+           },        
+        "prefetched": true
+       },
+       {        
+        "component": "recommendations",
+        "key": "recommendations.automobileRecommendations",
+        "props": {
+            "context": "automobileRecommendations",
+            "title": "Рекомендуем",
+            "displayType": "concatList",
+            "displayCount": 2
+           },        
+        "prefetched": true
+       },
+      {        
+        "component": "offers",
+        "key": "offers.automobileOffers",
+        "props": {
+            "context": "automobileOffers",
+            "title": "Предложения",
+            "displayType": "specialOffer",
+            "displayCount": 2
+           },        
+        "prefetched": true
+       },
+      {
+        "component": "usefulTopics",
+        "key": "usefulTopics.automobileTopics",
+        "props": {
+            "context": "automobileTopics",
+            "title": "Полезное",
+            "description": "Полезный контент от экспертов рынка",
+            "displayType": "cardSimple",
+            "displayCount": 2
+           },      
+        "prefetched": true
+       }
+    ]
+  },
+  "data": [
+    {
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_car_banner.webp" 
+      },
+      "custom": {          
+        "state": "default",
+        "vehicleBrand": "SEAT",
+        "vehicleModel": "Tolledo",
+        "vehicleLicensePlate": "У 417 KC 163",
+        "policyType": "OSAGO",
+        "policyEndDate": "2022-12-31"
+      },
+      "analytics": {
+            "eventCategory": "automobile_mob",
+            "eventAction": "banner_click",
+            "eventLabel": "uncover" 
+      },
+      "layoutKey": "automobileProductCard"
+    },  
+    {
+      "title": "Вклады",
+      "description": "До 8% годовых",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_money_bag.webp"
+      },
+      "deepLink": "finuslugi://carinsurance/buyPolicy",
+      "analytics": {
+          "eventCategory": "deposit_mob",
+          "eventAction": "account_and_deposit_recommendation_click"
+      },
+      "layoutKey": "recommendations.savings"
+    },
+    {
+      "title": "Инвестиции",
+      "description": "До 10% годовых",
+      "background": { 
+        "url": "https://alshevelev.github.io/android/img_safe.webp"
+      },
+      "deepLink": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+          "eventCategory": "deposit_mob",
+          "eventAction": "investment_recommendation_click"
+      },
+      "layoutKey": "recommendations.savings"
+    },
+    {
+      "title": "ОСАГО",
+      "description": "С выгодой до 55%",
+      "background": { 
+          "colors": [
+              "#FF0508"
+          ]
+      },
+      "deepLink": "finuslugi://carinsurance/buyPolicy",
+      "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "osago_recommendation_click"
+      },
+      "layoutKey": "recommendations.automobileRecommendations"
+    },
+    {
+      "title": "Каско",
+      "description": "Расчет за 1 минуту",
+      "background": { 
+          "colors": [
+              "#FF0508"
+          ]
+      },
+      "deepLink": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "kasko_recommendation_click"
+      },
+      "layoutKey": "recommendations.automobileRecommendations"
+    },
+    {
+      "title": "Получи скидку 5% на заправку",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_offer_money.webp",
+          "colors": [
+              "#BA21BD",
+              "#A151F0"
+          ]
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+        "eventCategory": "automobile_mob",
+        "eventAction": "gas_station_sale_offer_click",
+        "eventLabel": "some_label"		
+      },
+      "layoutKey": "offers.automobileOffers"		
+    },
+    {
+      "title": "Поменяйте колеса со скидкой",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_offer_tires.webp",
+          "colors": [
+              "#4E2FE8",
+              "#516BF0"
+          ]
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {     
+         "eventCategory": "automobile_mob",
+         "eventAction": "tires_change_offer_click",
+         "eventLabel": "some_label"		 
+      },
+      "layoutKey": "offers.automobileOffers"
+    },
+    {
+      "title": "Статьи про ОСАГО",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_car.webp"
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+        "eventCategory": "automobile_mob",
+        "eventAction": "topic_click",
+        "eventLabel": "osago_usefuls"
+      },
+      "layoutKey": "usefulTopics.automobileTopics"
+    },
+    {
+      "title": "Статьи про Каско",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_car.webp"
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+        "eventCategory": "automobile_mob",
+        "eventAction": "topic_click",
+        "eventLabel": "kasko_usefuls"
+      },
+      "layoutKey": "usefulTopics.automobileTopics"
+    }
+  ]
+}
