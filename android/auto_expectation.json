@@ -18,23 +18,23 @@
         "prefetched": true
       },
       {        
-        "component": "recommendations",
-        "key": "recommendations.automobileRecommendations",
-        "props": {
-            "context": "automobileRecommendations",
-            "title": "Рекомендуем",
-            "displayType": "concatList",
-            "displayCount": 2
-           },        
-        "prefetched": true
-       },
-      {        
         "component": "offers",
         "key": "offers.automobileOffers",
         "props": {
             "context": "automobileOffers",
             "title": "Предложения",
             "displayType": "specialOffer",
+            "displayCount": 2
+           },        
+        "prefetched": true
+       },
+        {        
+        "component": "recommendations",
+        "key": "recommendations.automobileRecommendations",
+        "props": {
+            "context": "automobileRecommendations",
+            "title": "Рекомендуем",
+            "displayType": "concatList",
             "displayCount": 2
            },        
         "prefetched": true
@@ -108,7 +108,7 @@
           "url": "https://alshevelev.github.io/android/img_offer_money.webp",
           "colors": [
               "#BA21BD",
-              "#A151F0"
+              "#000000"
           ]
       },
       "actionUrl": "https://finusluge.ru/action/url/examle",
