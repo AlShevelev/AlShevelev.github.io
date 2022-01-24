@@ -1,0 +1,52 @@
+{
+  "page": {
+    "key": "deposit",
+    "title": "Накопления",
+    "iconUrl": "https://alshevelev.github.io/android/ic_auto_tab_unselected.webp",
+    "activeIconUrl": "https://alshevelev.github.io/android/ic_auto_tab_selected.webp",
+    "analytics": {
+          "eventCategory": "deposit_mob",
+          "eventAction": "main_page_view"
+    },
+    "layout": [
+      {        
+        "component": "recommendations",
+        "key": "recommendations.savings",
+        "props": {
+            "context": "savingsRecommendations",
+            "displayType": "cardHorizontal",
+            "displayCount": 2
+           },        
+        "prefetched": true
+       }
+    ]
+  },
+  "data": [
+    {
+      "title": "Вклады",
+      "description": "До 8% годовых",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_money_bag.webp"
+      },
+      "deepLink": "finuslugi://carinsurance/buyPolicy",
+      "analytics": {
+          "eventCategory": "deposit_mob",
+          "eventAction": "account_and_deposit_recommendation_click"
+      },
+      "layoutKey": "recommendations.savings"
+    },
+    {
+      "title": "Инвестиции",
+      "description": "До 10% годовых",
+      "background": { 
+        "url": "https://alshevelev.github.io/android/img_safe.webp"
+      },
+      "deepLink": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+          "eventCategory": "deposit_mob",
+          "eventAction": "investment_recommendation_click"
+      },
+      "layoutKey": "recommendations.savings"
+    }
+  ]
+}
