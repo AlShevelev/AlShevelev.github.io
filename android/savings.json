@@ -41,7 +41,7 @@
       "background": { 
         "url": "https://alshevelev.github.io/android/img_safe.webp"
       },
-      "deepLink": "https://finusluge.ru/action/url/examle",
+      "deepLink": "finuslugi://carinsurance/buyPolicy",
       "analytics": {
           "eventCategory": "deposit_mob",
           "eventAction": "investment_recommendation_click"
