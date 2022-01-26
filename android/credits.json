@@ -50,7 +50,7 @@
                 "url": "https://pocheshire.github.io/images/banner_key.png"
             },
             "actionText": "Получить кредит",
-            "actionUrl": "https://finuslugi.ru/potrebitelskie_kredity",
+            "deepLink": "finuslugi://carinsurance/buyPolicy",
             "custom": {
                 "state": "no-credit"
             },
