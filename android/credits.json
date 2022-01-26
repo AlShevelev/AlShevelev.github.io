@@ -73,7 +73,8 @@
             "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
             "analytics": {
                 "eventCategory": "credit_mob",
-                "eventAction": "psb_offer_click"
+                "eventAction": "psb_offer_click",
+                "eventLabel": "uncover"
             },
             "layoutKey": "offers.creditOffers"
         },
