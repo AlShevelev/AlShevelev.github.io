@@ -1,0 +1,107 @@
+{
+    "page": {
+        "key": "credit",
+        "title": "Кредиты",
+        "iconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/credit.png",
+        "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/credit-active.png",
+        "analytics": {
+            "eventCategory": "credit_mob",
+            "eventAction": "credit_mob"
+        },
+        "layout": [
+            {
+                "component": "creditProductCard",
+                "key": "creditProductCard",
+                "props": {
+                    "displayType": "cardSingle"
+                },
+                "prefetched": true
+            },
+            {
+                "component": "offers",
+                "key": "offers.creditOffers",
+                "props": {
+                    "context": "creditOffers",
+                    "title": "Предложения",
+                    "displayType": "specialOffer",
+                    "displayCount": 1
+                },
+                "prefetched": true
+            },
+            {
+                "component": "usefulTopics",
+                "key": "usefulTopics.credits",
+                "prefetched": true,
+                "props": {
+                    "context": "credits",
+                    "description": "Посмотреть организации своего города, отсортировать, найти по названию",
+                    "displayCount": 2,
+                    "displayType": "cardSimple",
+                    "title": "Каталог"
+                }
+            }
+        ]
+    },
+    "data": [
+        {
+            "title": "Кредит на любые цели",
+            "description": "Не выходя из дома",
+            "background": {
+                "url": "https://pocheshire.github.io/images/banner_key.png"
+            },
+            "actionText": "Получить кредит",
+            "actionUrl": "https://finuslugi.ru/potrebitelskie_kredity",
+            "custom": {
+                "state": "no-credit"
+            },
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "banner_click",
+                "eventLabel": "uncover"
+            },
+            "layoutKey": "creditProductCard"
+        },
+        {
+            "title": "Кредит до 500 000 со ставкой 5,1%",
+            "background": {
+                "url": "https://pocheshire.github.io/images/offer_psb.png",
+                "colors": [
+                    "#5C0E4B",
+                    "#516BF0"
+                ]
+            },
+            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "psb_offer_click"
+            },
+            "layoutKey": "offers.creditOffers"
+        },
+        {
+            "actionUrl": "https://en.wikipedia.org/wiki/Bank",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "credits_mob",
+                "eventLabel": "banks"
+            },
+            "background": {
+                "url": "https://pocheshire.github.io/images/new-credit-catalog-1.png"
+            },
+            "layoutKey": "usefulTopics.credits",
+            "title": "Банки"
+        },
+        {
+            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "credits_mob",
+                "eventLabel": "insurance"
+            },
+            "background": {
+                "url": "https://pocheshire.github.io/images/new-credit-catalog-2.png"
+            },
+            "layoutKey": "usefulTopics.credits",
+            "title": "Страховые"
+        }
+    ]
+}
