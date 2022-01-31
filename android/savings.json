@@ -75,7 +75,8 @@
         "background": {
             "url": "https://pocheshire.github.io/images/auto-offer2.png",
             "colors": [
-                "#FEEDBA"
+                "#FEEDBA",
+                "#E4D5A7"
             ]
         },
         "actionUrl": "https://alshevelev.github.io/android/offer_money.webp",
@@ -90,7 +91,8 @@
         "background": {
             "url": "https://alshevelev.github.io/android/auto-offer3.webp",
             "colors": [
-                "#D7BFFF"
+                "#C1ABE5",
+                "#AD99CE"
             ]
         },
         "actionUrl": "https://pocheshire.github.io/images/offer_gift.png",
