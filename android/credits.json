@@ -27,18 +27,6 @@
                     "displayCount": 1
                 },
                 "prefetched": true
-            },
-            {
-                "component": "usefulTopics",
-                "key": "usefulTopics.credits",
-                "prefetched": true,
-                "props": {
-                    "context": "credits",
-                    "description": "Посмотреть организации своего города, отсортировать, найти по названию",
-                    "displayCount": 2,
-                    "displayType": "cardSimple",
-                    "title": "Каталог"
-                }
             }
         ]
     },
@@ -77,32 +65,6 @@
                 "eventLabel": "uncover"
             },
             "layoutKey": "offers.creditOffers"
-        },
-        {
-            "actionUrl": "https://en.wikipedia.org/wiki/Bank",
-            "analytics": {
-                "eventAction": "topic_click",
-                "eventCategory": "credits_mob",
-                "eventLabel": "banks"
-            },
-            "background": {
-                "url": "https://pocheshire.github.io/images/new-credit-catalog-1.png"
-            },
-            "layoutKey": "usefulTopics.credits",
-            "title": "Банки"
-        },
-        {
-            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
-            "analytics": {
-                "eventAction": "topic_click",
-                "eventCategory": "credits_mob",
-                "eventLabel": "insurance"
-            },
-            "background": {
-                "url": "https://pocheshire.github.io/images/new-credit-catalog-2.png"
-            },
-            "layoutKey": "usefulTopics.credits",
-            "title": "Страховые"
         }
     ]
 }
