@@ -27,6 +27,17 @@
                     "displayCount": 1
                 },
                 "prefetched": true
+            },
+            {
+                "component": "usefull",
+                "key": "usefull.usefull",
+                "props": {
+                    "context": "creditOffers",
+                    "title": "Полезное",
+                    "displayType": "newsList",
+                    "displayCount": 1
+                },
+                "prefetched": true
             }
         ]
     },
@@ -65,6 +76,40 @@
                 "eventLabel": "uncover"
             },
             "layoutKey": "offers.creditOffers"
+        },
+        {
+            "title": "Статьи про кредиты",
+            "description": "Полезный контент от экспертов рынка",
+            "background": {
+                "url": "https://alshevelev.github.io/android/img_wallet_usefull.webp",
+                "colors": [
+                    "#4BA9E0ED"
+                ]
+            },
+            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "psb_offer_click",
+                "eventLabel": "uncover"
+            },
+            "layoutKey": "usefull.usefull"
+        },
+        {
+            "title": "Досрочное погашение: выгодно ли отдавать деньги раньше?",
+            "description": "В марте 2020 года количество досрочных погашений кредитов было существенно больше чем в феврале, и это не может не радовать, дорогие товарищи!",
+            "background": {
+                "url": "https://alshevelev.github.io/android/img_money_usefull.webp",
+                "colors": [
+                    "#4BC4C4C4"
+                ]
+            },
+            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
+            "analytics": {
+                "eventCategory": "credit_mob",
+                "eventAction": "psb_offer_click",
+                "eventLabel": "uncover"
+            },
+            "layoutKey": "usefull.usefull"
         }
     ]
 }
