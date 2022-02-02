@@ -50,7 +50,7 @@
       "background": { 
           "url": "https://alshevelev.github.io/android/img_money_bag.webp"
       },
-      "deepLink": "finuslugi://carinsurance/buyPolicy",
+      "deepLink": "finuslugi://deposit",
       "analytics": {
           "eventCategory": "deposit_mob",
           "eventAction": "account_and_deposit_recommendation_click"
@@ -63,7 +63,7 @@
       "background": { 
         "url": "https://alshevelev.github.io/android/img_safe.webp"
       },
-      "deepLink": "finuslugi://carinsurance/buyPolicy",
+      "deepLink": "finuslugi://investments",
       "analytics": {
           "eventCategory": "deposit_mob",
           "eventAction": "investment_recommendation_click"
