@@ -50,7 +50,7 @@
       "background": { 
           "url": "https://alshevelev.github.io/android/img_money_bag.webp"
       },
-      "deepLink": "finuslugi://deposit",
+      "deepLink": "finuslugi://deposits",
       "analytics": {
           "eventCategory": "deposit_mob",
           "eventAction": "account_and_deposit_recommendation_click"
