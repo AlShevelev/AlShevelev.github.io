@@ -43,6 +43,7 @@
                 "props": {
                     "context": "organizations",
                     "title": "Полезное",
+					"description": "Посмотреть  организации своего города, отсортировать, найти по названию"
                     "displayType": "cardSimple",
                     "displayCount": 2
                 },
@@ -96,12 +97,11 @@
             "layoutKey": "offers.creditOffers"
         },
         {
-            "title": "Статьи про кредиты",
-            "description": "В марте 2020 года количество досрочных погашений кредитов...",
+            "title": "Банки",
             "background": {
-                "url": "https://alshevelev.github.io/android/img_wallet_usefull.webp",
+                "url": "https://pocheshire.github.io/images/credit-useful1.png", 
                 "colors": [
-                    "#A9E0ED"
+                    "#EAEBEE"
                 ]
             },
             "actionUrl": "https://en.wikipedia.org/wiki/Bank",
@@ -113,12 +113,11 @@
             "layoutKey": "usefulTopics.organizations"
         },
         {
-            "title": "Досрочное погашение: выгодно ли отдавать деньги раньше?",
-			"description": "Полезный контент от экспертов рынка",
+            "title": "Страховые",
 			"background": {
-                "url": "https://pocheshire.github.io/images/offer_money.png",
+                "url": "https://pocheshire.github.io/images/credit-useful2.png",
 				"colors": [
-                    "#C4C4C4"
+                    "#EAEBEE"
                 ]
             },
             "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
