@@ -82,7 +82,7 @@
         "colors": [
                     "#F3F3F8"
         ],
-				"url": "https://pocheshire.github.io/images/auto-recommendation1.png"
+	"url": "https://alshevelev.github.io/android/recommendation1.webp"
       },
       "deepLink": "finuslugi://carinsurance/buyPolicy",
       "analytics": {
@@ -98,7 +98,7 @@
         "colors": [
                     "#F3F3F8"
         ],
-				"url": "https://pocheshire.github.io/images/auto-recommendation2.png"
+	"url": "https://alshevelev.github.io/android/recommendation2.webp"
        },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
@@ -114,7 +114,7 @@
         "colors": [
                     "#F3F3F8"
                 ],
-		    "url": "https://pocheshire.github.io/images/auto-recommendation3.png"
+	"url": "https://alshevelev.github.io/android/recommendation3.webp"
       },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
