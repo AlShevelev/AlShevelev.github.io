@@ -126,7 +126,7 @@
     {
       "title": "MOEX Group - узнайте подробности о новом бренде",
       "background": {
-                "url": "https://pocheshire.github.io/images/auto-offer1.png",
+                "url": "https://alshevelev.github.io/android/offer1.webp",
                 "colors": [
                     "#FF0508"
                 ]
@@ -142,7 +142,7 @@
     {
       "title": "Поменяйте колеса со скидкой",
       "background": {
-                "url": "https://pocheshire.github.io/images/auto-offer2.png",
+                "url": "https://alshevelev.github.io/android/offer2.webp",
                 "colors": [
                     "#FEEDBA"
                 ]
@@ -158,7 +158,7 @@
     {
       "title": "Новое на Финуслугах: ипотечное страхование",
       "background": {
-                "url": "https://pocheshire.github.io/images/auto-offer3.png",
+                "url": "https://alshevelev.github.io/android/offer3.webp",
                 "colors": [
                     "#D7BFFF"
                 ]
@@ -174,7 +174,7 @@
     {
       "title": "Статьи про ОСАГО",
       "background": {
-                "url": "https://pocheshire.github.io/images/auto-useful1.png"
+                "url": "https://alshevelev.github.io/android/useful1.webp"
             },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
@@ -187,7 +187,7 @@
     {
       "title": "Статьи про Каско",
       "background": {
-                "url": "https://pocheshire.github.io/images/auto-useful2.png"
+                "url": "https://alshevelev.github.io/android/useful2.webp"
             },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
