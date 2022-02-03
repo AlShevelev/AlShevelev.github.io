@@ -100,7 +100,7 @@
         ],
 	"url": "https://alshevelev.github.io/android/recommendation2.webp"
        },
-      "deepLink": "https://finusluge.ru/action/url/examle",
+      "actionUrl": "https://kasko.finuslugi.ru",
       "analytics": {
           "eventCategory": "automobile_mob",
           "eventAction": "kasko_recommendation_click"
@@ -116,7 +116,7 @@
                 ],
 	"url": "https://alshevelev.github.io/android/recommendation3.webp"
       },
-      "deepLink": "https://finusluge.ru/action/url/examle",
+      "actionUrl": "https://mortgage.finuslugi.ru",
       "analytics": {
           "eventCategory": "automobile_mob",
           "eventAction": "kasko_recommendation_click"
