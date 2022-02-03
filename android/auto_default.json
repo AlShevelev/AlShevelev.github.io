@@ -62,8 +62,8 @@
       },
       "custom": {          
         "state": "default",
-        "vehicleBrand": "SEAT 111",
-        "vehicleModel": "Tolledo 111",
+        "vehicleBrand": "SEAT",
+        "vehicleModel": "Tolledo",
         "vehicleLicensePlate": "У 417 KC 163",
         "policyType": "OSAGO",
         "policyEndDate": "2022-12-31"
@@ -78,11 +78,11 @@
     {
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_card_recomendations.webp",
-          "colors": [
-              "#FF0508"
-          ]
+      "background": {
+        "colors": [
+                    "#F3F3F8"
+        ],
+				"url": "https://pocheshire.github.io/images/auto-recommendation1.png"
       },
       "deepLink": "finuslugi://carinsurance/buyPolicy",
       "analytics": {
@@ -94,12 +94,12 @@
     {
       "title": "Каско",
       "description": "Расчет за 1 минуту",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_card_recomendations.webp",
-          "colors": [
-              "#FF0508"
-          ]
-      },
+      "background": {
+        "colors": [
+                    "#F3F3F8"
+        ],
+				"url": "https://pocheshire.github.io/images/auto-recommendation2.png"
+       },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
           "eventCategory": "automobile_mob",
@@ -110,11 +110,11 @@
     {
       "title": "Страхование ипотеки",
       "description": "Подбор и оформление онлайн",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_card_recomendations.webp",
-          "colors": [
-              "#FF0508"
-          ]
+      "background": {
+        "colors": [
+                    "#F3F3F8"
+                ],
+		    "url": "https://pocheshire.github.io/images/auto-recommendation3.png"
       },
       "deepLink": "https://finusluge.ru/action/url/examle",
       "analytics": {
@@ -125,13 +125,12 @@
     },
     {
       "title": "MOEX Group - узнайте подробности о новом бренде",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_offer_money.webp",
-          "colors": [
-              "#BA21BD",
-              "#A151F0"
-          ]
-      },
+      "background": {
+                "url": "https://pocheshire.github.io/images/auto-offer1.png",
+                "colors": [
+                    "#FF0508"
+                ]
+            },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
@@ -142,13 +141,12 @@
     },
     {
       "title": "Поменяйте колеса со скидкой",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_offer_tires.webp",
-          "colors": [
-              "#4E2FE8",
-              "#516BF0"
-          ]
-      },
+      "background": {
+                "url": "https://pocheshire.github.io/images/auto-offer2.png",
+                "colors": [
+                    "#FEEDBA"
+                ]
+            },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {     
          "eventCategory": "automobile_mob",
@@ -159,13 +157,12 @@
     },
     {
       "title": "Новое на Финуслугах: ипотечное страхование",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_offer_tires.webp",
-          "colors": [
-              "#4E2FE8",
-              "#516BF0"
-          ]
-      },
+      "background": {
+                "url": "https://pocheshire.github.io/images/auto-offer3.png",
+                "colors": [
+                    "#D7BFFF"
+                ]
+            },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {     
          "eventCategory": "automobile_mob",
@@ -176,9 +173,9 @@
     },
     {
       "title": "Статьи про ОСАГО",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_car.webp"
-      },
+      "background": {
+                "url": "https://pocheshire.github.io/images/auto-useful1.png"
+            },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
@@ -189,9 +186,9 @@
     },
     {
       "title": "Статьи про Каско",
-      "background": { 
-          "url": "https://alshevelev.github.io/android/img_car.webp"
-      },
+      "background": {
+                "url": "https://pocheshire.github.io/images/auto-useful2.png"
+            },
       "actionUrl": "https://finusluge.ru/action/url/examle",
       "analytics": {
         "eventCategory": "automobile_mob",
