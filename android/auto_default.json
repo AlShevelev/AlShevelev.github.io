@@ -22,7 +22,7 @@
         "key": "recommendations.automobileRecommendations",
         "props": {
             "context": "automobileRecommendations",
-            "title": "Рекомендуем",
+            "title": "Оформить",
             "displayType": "concatList",
             "displayCount": 3
            },        
