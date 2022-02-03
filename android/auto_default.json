@@ -62,8 +62,8 @@
       },
       "custom": {          
         "state": "default",
-        "vehicleBrand": "SEAT",
-        "vehicleModel": "Tolledo",
+        "vehicleBrand": "SEAT 111",
+        "vehicleModel": "Tolledo 111",
         "vehicleLicensePlate": "У 417 KC 163",
         "policyType": "OSAGO",
         "policyEndDate": "2022-12-31"
