@@ -24,7 +24,7 @@
             "context": "automobileRecommendations",
             "title": "Рекомендуем",
             "displayType": "concatList",
-            "displayCount": 2
+            "displayCount": 3
            },        
         "prefetched": true
        },
@@ -35,7 +35,7 @@
             "context": "automobileOffers",
             "title": "Предложения",
             "displayType": "specialOffer",
-            "displayCount": 2
+            "displayCount": 3
            },        
         "prefetched": true
        },
@@ -108,7 +108,23 @@
       "layoutKey": "recommendations.automobileRecommendations"
     },
     {
-      "title": "Получи скидку 5% на заправку",
+      "title": "Страхование ипотеки",
+      "description": "Подбор и оформление онлайн",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_card_recomendations.webp",
+          "colors": [
+              "#FF0508"
+          ]
+      },
+      "deepLink": "https://finusluge.ru/action/url/examle",
+      "analytics": {
+          "eventCategory": "automobile_mob",
+          "eventAction": "kasko_recommendation_click"
+      },
+      "layoutKey": "recommendations.automobileRecommendations"
+    },
+    {
+      "title": "MOEX Group - узнайте подробности о новом бренде",
       "background": { 
           "url": "https://alshevelev.github.io/android/img_offer_money.webp",
           "colors": [
@@ -126,6 +142,23 @@
     },
     {
       "title": "Поменяйте колеса со скидкой",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/img_offer_tires.webp",
+          "colors": [
+              "#4E2FE8",
+              "#516BF0"
+          ]
+      },
+      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "analytics": {     
+         "eventCategory": "automobile_mob",
+         "eventAction": "tires_change_offer_click",
+         "eventLabel": "some_label"		 
+      },
+      "layoutKey": "offers.automobileOffers"
+    },
+    {
+      "title": "Новое на Финуслугах: ипотечное страхование",
       "background": { 
           "url": "https://alshevelev.github.io/android/img_offer_tires.webp",
           "colors": [
