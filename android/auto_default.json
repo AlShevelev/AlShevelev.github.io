@@ -82,7 +82,7 @@
         "colors": [
                     "#F3F3F8"
         ],
-	"url": "https://alshevelev.github.io/android/recommendation1.webp"
+	"url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/recommendation1.webp"
       },
       "deepLink": "finuslugi://carinsurance/buyPolicy",
       "analytics": {
@@ -98,7 +98,7 @@
         "colors": [
                     "#F3F3F8"
         ],
-	"url": "https://alshevelev.github.io/android/recommendation2.webp"
+	"url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/recommendation2.webp"
        },
       "actionUrl": "https://kasko.finuslugi.ru",
       "analytics": {
@@ -114,7 +114,7 @@
         "colors": [
                     "#F3F3F8"
                 ],
-	"url": "https://alshevelev.github.io/android/recommendation3.webp"
+	"url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/recommendation3.webp"
       },
       "actionUrl": "https://mortgage.finuslugi.ru",
       "analytics": {
@@ -124,14 +124,14 @@
       "layoutKey": "recommendations.automobileRecommendations"
     },
     {
-      "title": "MOEX Group - узнайте подробности о новом бренде",
+      "title": "Подробности о новом бренде MOEX Group",
       "background": {
-                "url": "https://alshevelev.github.io/android/offer1.webp",
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/offer1.webp",
                 "colors": [
                     "#FF0508"
                 ]
             },
-      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "actionUrl": "https://finuslugi.ru/novosti_finuslug/moskovskaya_birzha_predstavila_obnovlennoe_pozicionirovanie_i_brend",
       "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "gas_station_sale_offer_click",
@@ -140,11 +140,11 @@
       "layoutKey": "offers.automobileOffers"		
     },
     {
-      "title": "Статьи про ОСАГО",
+      "title": "Статьи про Страхование",
       "background": {
-                "url": "https://alshevelev.github.io/android/useful1.webp"
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/useful1.webp"
             },
-      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "actionUrl": "https://finuslugi.ru/navigator/zastrahovat",
       "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
@@ -153,11 +153,11 @@
       "layoutKey": "usefulTopics.automobileTopics"
     },
     {
-      "title": "Статьи про Каско",
+      "title": "Вопросы и ответы по ОСАГО",
       "background": {
-                "url": "https://alshevelev.github.io/android/useful2.webp"
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/auto/seful2.webp"
             },
-      "actionUrl": "https://finusluge.ru/action/url/examle",
+      "actionUrl": "https://finuslugi.ru/help/e-osago",
       "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
