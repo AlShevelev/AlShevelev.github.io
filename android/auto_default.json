@@ -6,7 +6,7 @@
     "activeIconUrl": "https://assets.finuslugi.ru/mp-assets/images/mapp/icons/automobile-active.png",
     "analytics": {
           "eventCategory": "automobile_mob",
-          "eventAction": "automobile_mob"
+          "eventAction": "main_page_view"
     },
     "layout": [
       {        
@@ -119,7 +119,7 @@
       "actionUrl": "https://mortgage.finuslugi.ru",
       "analytics": {
           "eventCategory": "automobile_mob",
-          "eventAction": "kasko_recommendation_click"
+          "eventAction": "mortgage_recommendation_click"
       },
       "layoutKey": "recommendations.automobileRecommendations"
     },
@@ -134,8 +134,8 @@
       "actionUrl": "https://finuslugi.ru/novosti_finuslug/moskovskaya_birzha_predstavila_obnovlennoe_pozicionirovanie_i_brend",
       "analytics": {
         "eventCategory": "automobile_mob",
-        "eventAction": "gas_station_sale_offer_click",
-        "eventLabel": "some_label"		
+        "eventAction": "offer_click",
+        "eventLabel": "about_new_brand"		
       },
       "layoutKey": "offers.automobileOffers"		
     },
@@ -148,7 +148,7 @@
       "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
-        "eventLabel": "osago_usefuls"
+        "eventLabel": "insurance"
       },
       "layoutKey": "usefulTopics.automobileTopics"
     },
@@ -161,7 +161,7 @@
       "analytics": {
         "eventCategory": "automobile_mob",
         "eventAction": "topic_click",
-        "eventLabel": "kasko_usefuls"
+        "eventLabel": "osago_answers"
       },
       "layoutKey": "usefulTopics.automobileTopics"
     }
