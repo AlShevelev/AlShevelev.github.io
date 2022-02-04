@@ -41,11 +41,11 @@
                 "component": "usefullTopics",
                 "key": "usefulTopics.organizations",
                 "props": {
-                    "context": "organizations",
-                    "title": "Полезное",
-					"description": "Посмотреть  организации своего города, отсортировать, найти по названию"
-                    "displayType": "cardSimple",
-                    "displayCount": 2
+                	"context": "organizations",
+                    	"title": "Полезное",
+			"description": "Посмотреть  организации своего города, отсортировать, найти по названию"
+                    	"displayType": "cardSimple",
+                    	"displayCount": 3
                 },
                 "prefetched": true
             }
@@ -56,7 +56,7 @@
             "title": "Кредит на любые цели",
             "description": "Не выходя из дома",
             "background": {
-                "url": "https://pocheshire.github.io/images/credit-banner.png"
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/credit/banner1.webp"
             },
             "actionText": "Получить кредит",
             "deepLink": "finuslugi://credits",
@@ -81,14 +81,14 @@
             "layoutKey": "survey"
         },
 		{
-            "title": "Кредит до 500 000 со ставкой 8,9%",
+            "title": "Стань агентом и зарабатывай с Финуслугами",
             "background": {
-                "url": "https://pocheshire.github.io/images/credit-offer1.png",
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/credit/offer1.webp",
                 "colors": [
-                    "#E1E8F6"
+                    "#BA98F3"
                 ]
             },
-            "actionUrl": "https://pocheshire.github.io/images/offer_money.png",
+            "actionUrl": "https://agents.finuslugi.ru",
             "analytics": {
                 "eventCategory": "credit_mob",
                 "eventAction": "psb_offer_click",
@@ -99,12 +99,12 @@
         {
             "title": "Банки",
             "background": {
-                "url": "https://pocheshire.github.io/images/credit-useful1.png", 
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/credit/useful1.webp", 
                 "colors": [
                     "#EAEBEE"
                 ]
             },
-            "actionUrl": "https://en.wikipedia.org/wiki/Bank",
+            "actionUrl": "https://finuslugi.ru/banki",
             "analytics": {
                 "eventCategory": "credit_mob",
                 "eventAction": "psb_offer_click",
@@ -112,21 +112,38 @@
             },
             "layoutKey": "usefulTopics.organizations"
         },
-        {
-            "title": "Страховые",
-			"background": {
-                "url": "https://pocheshire.github.io/images/credit-useful2.png",
-				"colors": [
+	{
+            "actionUrl": "https://finuslugi.ru/strahovanie_kompanija",
+            "analytics": {
+                "eventAction": "topic_click",
+                "eventCategory": "credits_mob",
+                "eventLabel": "insurance"
+            },
+            "background": {
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/credit/useful2.webp",
+                "colors": [
                     "#EAEBEE"
                 ]
             },
-            "actionUrl": "https://en.wikipedia.org/wiki/Insurance",
+            "layoutKey": "usefulTopics.organizations",
+            "title": "Страховые"
+        },
+        {
+            "actionUrl": "https://finuslugi.ru/navigator/kredity",
             "analytics": {
-                "eventCategory": "credit_mob",
-                "eventAction": "psb_offer_click",
-                "eventLabel": "uncover"
+                "eventAction": "topic_click",
+                "eventCategory": "credits_mob",
+                "eventLabel": "insurance"
             },
-            "layoutKey": "usefulTopics.organizations"
+            "background": {
+                "url": "https://dev-minio.beta.moex.com/mp-assets/images/credit/useful3.webp",
+                "colors": [
+                    "#EAEBEE"
+                ]
+            },
+            "layoutKey": "usefulTopics.organizations",
+            "title": "Статьи про кредиты",
+            "description": "Полезный контент от экспертов рынка"
         }
     ]
 }
