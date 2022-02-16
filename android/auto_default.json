@@ -13,7 +13,7 @@
         "component": "automobileProductCard",
         "key": "automobileProductCard",
         "props": {
-            "displayType": "cardSingle"
+            "displayType": "automobileProduct"
         },        
         "prefetched": true
       },
@@ -58,7 +58,7 @@
       "title": "Добавьте ОСАГО",
       "description": "Чтобы Ваш полис всегда был под рукой",
       "background": { 
-          "url": "https://alshevelev.github.io/android/img_car_banner.webp" 
+          "url": "https://alshevelev.github.io/android/pic-car.png" 
       },
       "custom": {          
         "state": "default",
@@ -75,6 +75,27 @@
       },
       "layoutKey": "automobileProductCard"
     },  
+    {
+      "title": "Добавьте ОСАГО",
+      "description": "Чтобы Ваш полис всегда был под рукой",
+      "background": { 
+          "url": "https://alshevelev.github.io/android/pic-car.png" 
+      },
+      "custom": {          
+        "state": "default",
+        "vehicleBrand": "SEAT",
+        "vehicleModel": "Tolledo",
+        "vehicleLicensePlate": "У 417 KC 163",
+        "policyType": "OSAGO",
+        "policyEndDate": "2022-12-31"
+      },
+      "analytics": {
+            "eventCategory": "automobile_mob",
+            "eventAction": "banner_click",
+            "eventLabel": "uncover" 
+      },
+      "layoutKey": "automobileProductCard"
+    },	  
     {
       "title": "ОСАГО",
       "description": "С выгодой до 55%",
